@@ -1,0 +1,23 @@
+{
+  "name": "hyge/daikinbox-backend",
+  "description": "daikinbox-backend",
+  "type": "project",
+  "require": {
+    "php": "~7.3",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-openssl": "*",
+    "ext-fileinfo": "*",
+    "vlucas/phpdotenv": "^3.3",
+    "nilportugues/sql-query-builder": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyApp\\" : "lib/MyApp/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "psy/psysh": "^0.9.9"
+  }
+}

@@ -1,0 +1,6 @@
+vendor
+composer.phar
+sqlite.db
+.env
+.phpunit.result.cache
+local_storage/*
